@@ -34,3 +34,23 @@ It is a classification technique based on Bayes' Theorem with an assumption of i
 
 ### 2. Support Vector Machine (SVM) algorithm.
 A Support Vector Machine (SVM) performs classification by finding the hyperplane that maximizes the margin between the two classes. The vectors (cases) that define the hyperplane are the support vectors.
+
+### 3. Decision Tree algorithm.
+Decision Tree algorithm belongs to the family of supervised learning algorithms. The goal of using a Decision Tree is to *create a training model that can use to predict the class or value of the target variable by learning simple decision rules inferred from prior data(training data)*.
+<a href="url"><img src="https://github.com/RocqJones/Machine-Learning-Intro/blob/master/imgs/dcsion.png" height="400" width="100%">
+
+### 4. K-nearest Neighbors algorithm.
+K nearest neighbors is a simple algorithm that stores all available cases and classifies new cases based on a similarity measure (e.g., distance functions).
+* Classic, simple, and easy to understand.
+
+### 5. AdaBoost, short for “Adaptive Boosting” algorithm.
+It focuses on classification problems and aims to convert a set of weak classifiers into a strong one. 
+* The final equation for classification is as follows;
+<a href="url"><img src="https://github.com/RocqJones/Machine-Learning-Intro/blob/master/imgs/adaboost.jpeg" height="200" width="100%">
+* ```f_m``` stands for the ```m_th weak classifier``` and ```theta_m``` is the corresponding *weight*. 
+* It is exactly the weighted combination of M weak classifiers.
+    
+### 6. Random Forest algorithm.
+The random forest is a classification algorithm consisting of many decisions trees. 
+* It uses bagging and feature randomness when building each individual tree to try to create an uncorrelated forest of trees whose prediction by committee is more accurate than that of any individual tree. Check illustration below.
+<a href="url"><img src="https://github.com/RocqJones/Machine-Learning-Intro/blob/master/imgs/random-forest-algorithm.png" height="500" width="100%">
