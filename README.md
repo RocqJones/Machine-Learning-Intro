@@ -54,3 +54,6 @@ It focuses on classification problems and aims to convert a set of weak classifi
 The random forest is a classification algorithm consisting of many decisions trees. 
 * It uses bagging and feature randomness when building each individual tree to try to create an uncorrelated forest of trees whose prediction by committee is more accurate than that of any individual tree. Check illustration below.
 <a href="url"><img src="https://github.com/RocqJones/Machine-Learning-Intro/blob/master/imgs/random-forest-algorithm.png" height="500" width="100%">
+
+## Machine Learning Datasets.
+* [Enron Email Dataset](https://www.cs.cmu.edu/~./enron/)
