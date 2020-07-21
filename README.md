@@ -51,10 +51,6 @@ The random forest is a classification algorithm consisting of many decisions tre
 * It uses bagging and feature randomness when building each individual tree to try to create an uncorrelated forest of trees whose prediction by committee is more accurate than that of any individual tree. Check illustration below.
 <a href="url"><img src="https://github.com/RocqJones/Machine-Learning-Intro/blob/master/imgs/random-forest-algorithm.png" height="500" width="100%">
 
-## Machine Learning Datasets.
-* [Enron Email Dataset](https://www.cs.cmu.edu/~./enron/)
-
-
 ## Three types of machine learning: 
 <a href="url"><img src="https://github.com/RocqJones/Machine-Learning-Intro/blob/master/imgs/Types-of-Machine-Learning-algorithms.jpg" height="400" width="100%" ></a>
 ### 1. Supervised learning.
@@ -78,3 +74,6 @@ Clustering is the task of grouping a set of objects in such a way that objects i
 <a href="url"><img src="https://github.com/RocqJones/Machine-Learning-Intro/blob/master/imgs/supVsUnsup.png" height="400" width="100%" ></a>
 
 ### 3. Reinforcement learning.
+
+## Useful Machine Learning Datasets.
+* [Enron Email Dataset](https://www.cs.cmu.edu/~./enron/)
