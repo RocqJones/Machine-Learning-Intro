@@ -70,6 +70,9 @@ Unsupervised learning is a type of machine learning algorithm used to draw infer
 Clustering is the task of grouping a set of objects in such a way that objects in the same group are more similar to each other than to those in other groups.
 <a href="url"><img src="https://github.com/RocqJones/Machine-Learning-Intro/blob/master/imgs/k-means-clustering.png" height="400" width="100%" ></a>
 * **K-means Clustering:** A method of vector quantization, originally from signal processing, that aims to partition n observations into k clusters in which each observation belongs to the cluster with the nearest mean, serving as a prototype of the cluster.
+    ###### [K-means Clustering visualization tool to play around with](https://www.naftaliharris.com/blog/visualizing-k-means-clustering/)
+* **Feature Scaling:** is a method used to normalize the range of independent variables or features of data. In data processing, it is also known as data normalization and is generally performed during the data preprocessing step.
+<a href="url"><img src="https://github.com/RocqJones/Machine-Learning-Intro/blob/master/imgs/feature-scaling.jpg" height="400" width="100%" ></a>
 
 ### Supervised learning vs Unsupervised learning.
 <a href="url"><img src="https://github.com/RocqJones/Machine-Learning-Intro/blob/master/imgs/supVsUnsup.png" height="400" width="100%" ></a>
