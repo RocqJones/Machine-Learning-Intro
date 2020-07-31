@@ -5,6 +5,31 @@ Covers Machine Learning basics.
 **Machine learning** is an application of artificial intelligence (AI) that provides systems the ability to automatically learn and improve from experience without being explicitly programmed. Machine learning focuses on the development of computer programs that can access data and use it learn for themselves.
 
 ## Machine Learning road-map.
+## Three types of machine learning: 
+<a href="url"><img src="https://github.com/RocqJones/Machine-Learning-Intro/blob/master/imgs/Types-of-Machine-Learning-algorithms.jpg" height="400" width="100%" ></a>
+### 1. Supervised learning.
+Supervised learning is the machine learning task of learning a function that maps an input to an output based on example input-output pairs. It infers a function from labeled training data consisting of a set of training examples.
+<a href="url"><img src="https://github.com/RocqJones/Machine-Learning-Intro/blob/master/imgs/supervised-learning.png" height="400" width="100%" ></a>
+
+### 2. Unsupervised learning.
+Unsupervised learning is a type of machine learning algorithm used to draw inferences from datasets consisting of input data without labeled responses. The most common unsupervised learning method is cluster analysis, which is used for exploratory data analysis to find hidden patterns or grouping in data.
+<a href="url"><img src="https://github.com/RocqJones/Machine-Learning-Intro/blob/master/imgs/unsupervised-learning.png" height="400" width="100%" ></a>
+
+#### Types of unsupervised learning.
+##### Clustering or Cluster analysis
+Clustering is the task of grouping a set of objects in such a way that objects in the same group are more similar to each other than to those in other groups.
+<a href="url"><img src="https://github.com/RocqJones/Machine-Learning-Intro/blob/master/imgs/k-means-clustering.png" height="400" width="100%" ></a>
+* **K-means Clustering:** A method of vector quantization, originally from signal processing, that aims to partition n observations into k clusters in which each observation belongs to the cluster with the nearest mean, serving as a prototype of the cluster.
+    ###### [K-means Clustering visualization tool to play around with](https://www.naftaliharris.com/blog/visualizing-k-means-clustering/)
+* **Feature Scaling:** is a method used to normalize the range of independent variables or features of data. In data processing, it is also known as data normalization and is generally performed during the data preprocessing step.
+<a href="url"><img src="https://github.com/RocqJones/Machine-Learning-Intro/blob/master/imgs/feature-scaling.jpg" height="400" width="100%" ></a>
+
+### Supervised learning vs Unsupervised learning.
+<a href="url"><img src="https://github.com/RocqJones/Machine-Learning-Intro/blob/master/imgs/supVsUnsup.png" height="400" width="100%" ></a>
+
+### 3. Reinforcement learning.
+Reinforcement learning (RL) is an area of machine learning concerned with how software agents ought to take actions in an environment in order to maximize the notion of cumulative reward.
+<a href="url"><img src="https://github.com/RocqJones/Machine-Learning-Intro/blob/master/imgs/reinforcement-learning.jpg" height="400" width="100%" ></a>
 
 ## [scikit-learn library](https://scikit-learn.org/stable/)
 **Scikit-learn** (formerly scikits.learn and also known as sklearn) is a free software machine learning library for the Python programming language. It features various classification; 
@@ -50,32 +75,6 @@ It focuses on classification problems and aims to convert a set of weak classifi
 The random forest is a classification algorithm consisting of many decisions trees. 
 * It uses bagging and feature randomness when building each individual tree to try to create an uncorrelated forest of trees whose prediction by committee is more accurate than that of any individual tree. Check illustration below.
 <a href="url"><img src="https://github.com/RocqJones/Machine-Learning-Intro/blob/master/imgs/random-forest-algorithm.png" height="500" width="100%">
-
-## Three types of machine learning: 
-<a href="url"><img src="https://github.com/RocqJones/Machine-Learning-Intro/blob/master/imgs/Types-of-Machine-Learning-algorithms.jpg" height="400" width="100%" ></a>
-### 1. Supervised learning.
-Supervised learning is the machine learning task of learning a function that maps an input to an output based on example input-output pairs. It infers a function from labeled training data consisting of a set of training examples.
-<a href="url"><img src="https://github.com/RocqJones/Machine-Learning-Intro/blob/master/imgs/supervised-learning.png" height="400" width="100%" ></a>
-
-### 2. Unsupervised learning.
-Unsupervised learning is a type of machine learning algorithm used to draw inferences from datasets consisting of input data without labeled responses. The most common unsupervised learning method is cluster analysis, which is used for exploratory data analysis to find hidden patterns or grouping in data.
-<a href="url"><img src="https://github.com/RocqJones/Machine-Learning-Intro/blob/master/imgs/unsupervised-learning.png" height="400" width="100%" ></a>
-
-#### Types of unsupervised learning.
-##### Clustering or Cluster analysis
-Clustering is the task of grouping a set of objects in such a way that objects in the same group are more similar to each other than to those in other groups.
-<a href="url"><img src="https://github.com/RocqJones/Machine-Learning-Intro/blob/master/imgs/k-means-clustering.png" height="400" width="100%" ></a>
-* **K-means Clustering:** A method of vector quantization, originally from signal processing, that aims to partition n observations into k clusters in which each observation belongs to the cluster with the nearest mean, serving as a prototype of the cluster.
-    ###### [K-means Clustering visualization tool to play around with](https://www.naftaliharris.com/blog/visualizing-k-means-clustering/)
-* **Feature Scaling:** is a method used to normalize the range of independent variables or features of data. In data processing, it is also known as data normalization and is generally performed during the data preprocessing step.
-<a href="url"><img src="https://github.com/RocqJones/Machine-Learning-Intro/blob/master/imgs/feature-scaling.jpg" height="400" width="100%" ></a>
-
-### Supervised learning vs Unsupervised learning.
-<a href="url"><img src="https://github.com/RocqJones/Machine-Learning-Intro/blob/master/imgs/supVsUnsup.png" height="400" width="100%" ></a>
-
-### 3. Reinforcement learning.
-Reinforcement learning (RL) is an area of machine learning concerned with how software agents ought to take actions in an environment in order to maximize the notion of cumulative reward.
-<a href="url"><img src="https://github.com/RocqJones/Machine-Learning-Intro/blob/master/imgs/reinforcement-learning.jpg" height="400" width="100%" ></a>
 
 ## Text feature extraction.
 ### The Bag of Words representation
