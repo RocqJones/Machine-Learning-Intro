@@ -74,6 +74,20 @@ Clustering is the task of grouping a set of objects in such a way that objects i
 <a href="url"><img src="https://github.com/RocqJones/Machine-Learning-Intro/blob/master/imgs/supVsUnsup.png" height="400" width="100%" ></a>
 
 ### 3. Reinforcement learning.
+Reinforcement learning (RL) is an area of machine learning concerned with how software agents ought to take actions in an environment in order to maximize the notion of cumulative reward.
+<a href="url"><img src="https://github.com/RocqJones/Machine-Learning-Intro/blob/master/imgs/reinforcement-learning.jpg" height="400" width="100%" ></a>
+
+## Text feature extraction.
+### The Bag of Words representation
+Text Analysis is a major application field for machine learning algorithms. However the raw data, a sequence of symbols cannot be fed directly to the algorithms themselves as most of them expect numerical feature vectors with a fixed size rather than the raw text documents with variable length. In order to address this; 
+* Scikit-learn provides utilities for the most common ways to extract numerical features from text content, namely:
+    - tokenizing strings and giving an integer id for each possible token, for instance by using white-spaces and punctuation as token separators.
+    - counting the occurrences of tokens in each document.
+    - normalizing and weighting with diminishing importance tokens that occur in the majority of samples / documents.
+
+In this scheme, features and samples are defined as follows:
+* each individual **token occurrence frequency** (normalized or not) is treated as a **feature**.
+* the vector of all the token frequencies for a given **document** is considered a multivariate **sample**.
 
 ## Useful Machine Learning Datasets.
 * [Enron Email Dataset](https://www.cs.cmu.edu/~./enron/)
